@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  JMemo_iOS
+//  JunNote
 //
-//  Created by 박준하 on 6/28/24.
+//  Created by 박준하 on 7/3/24.
 //
 
 import UIKit

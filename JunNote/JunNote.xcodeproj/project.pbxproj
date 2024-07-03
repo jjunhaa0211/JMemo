@@ -7,124 +7,124 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E5AEA802C33F4C70071990E /* VisitHistoryWebView in Frameworks */ = {isa = PBXBuildFile; productRef = 0E5AEA7F2C33F4C70071990E /* VisitHistoryWebView */; };
-		0E5AEA822C3445210071990E /* Utils+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AEA812C3445210071990E /* Utils+UIColor.swift */; };
-		0EFB45682C2E8F770025349C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB45672C2E8F770025349C /* AppDelegate.swift */; };
-		0EFB456A2C2E8F770025349C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB45692C2E8F770025349C /* SceneDelegate.swift */; };
-		0EFB456C2C2E8F770025349C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB456B2C2E8F770025349C /* ViewController.swift */; };
-		0EFB45712C2E8F790025349C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFB45702C2E8F790025349C /* Assets.xcassets */; };
-		0EFB45742C2E8F790025349C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EFB45722C2E8F790025349C /* LaunchScreen.storyboard */; };
-		0EFB457D2C2E8FCB0025349C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0EFB457C2C2E8FCB0025349C /* SnapKit */; };
-		0EFB45802C2E99E00025349C /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 0EFB457F2C2E99E00025349C /* Then */; };
-		0EFB45822C2E9D490025349C /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB45812C2E9D490025349C /* HistoryViewController.swift */; };
+		0EE911652C34F3FE0048615F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE911642C34F3FE0048615F /* AppDelegate.swift */; };
+		0EE911672C34F3FE0048615F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE911662C34F3FE0048615F /* SceneDelegate.swift */; };
+		0EE911692C34F3FE0048615F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE911682C34F3FE0048615F /* ViewController.swift */; };
+		0EE9116E2C34F4000048615F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE9116D2C34F4000048615F /* Assets.xcassets */; };
+		0EE911712C34F4000048615F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE9116F2C34F4000048615F /* LaunchScreen.storyboard */; };
+		0EE9117A2C34F42C0048615F /* Utils+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE911792C34F42C0048615F /* Utils+UIColor.swift */; };
+		0EE9117C2C34F4380048615F /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE9117B2C34F4380048615F /* HistoryViewController.swift */; };
+		0EE9117F2C34F44F0048615F /* VisitHistoryWebView in Frameworks */ = {isa = PBXBuildFile; productRef = 0EE9117E2C34F44F0048615F /* VisitHistoryWebView */; };
+		0EE911822C34F45A0048615F /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 0EE911812C34F45A0048615F /* Then */; };
+		0EE911852C34F4650048615F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0EE911842C34F4650048615F /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E5AEA812C3445210071990E /* Utils+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utils+UIColor.swift"; sourceTree = "<group>"; };
-		0EFB45642C2E8F770025349C /* JMemo_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMemo_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EFB45672C2E8F770025349C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0EFB45692C2E8F770025349C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0EFB456B2C2E8F770025349C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0EFB45702C2E8F790025349C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0EFB45732C2E8F790025349C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0EFB45752C2E8F790025349C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0EFB45812C2E9D490025349C /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		0EE911612C34F3FE0048615F /* JunNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JunNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE911642C34F3FE0048615F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EE911662C34F3FE0048615F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0EE911682C34F3FE0048615F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EE9116D2C34F4000048615F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EE911702C34F4000048615F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EE911722C34F4000048615F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EE911792C34F42C0048615F /* Utils+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utils+UIColor.swift"; sourceTree = "<group>"; };
+		0EE9117B2C34F4380048615F /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0EFB45612C2E8F770025349C /* Frameworks */ = {
+		0EE9115E2C34F3FE0048615F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EFB457D2C2E8FCB0025349C /* SnapKit in Frameworks */,
-				0E5AEA802C33F4C70071990E /* VisitHistoryWebView in Frameworks */,
-				0EFB45802C2E99E00025349C /* Then in Frameworks */,
+				0EE911852C34F4650048615F /* SnapKit in Frameworks */,
+				0EE9117F2C34F44F0048615F /* VisitHistoryWebView in Frameworks */,
+				0EE911822C34F45A0048615F /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E5AEA832C3448810071990E /* Utils */ = {
+		0EE911582C34F3FE0048615F = {
 			isa = PBXGroup;
 			children = (
-				0E5AEA812C3445210071990E /* Utils+UIColor.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		0EFB455B2C2E8F770025349C = {
-			isa = PBXGroup;
-			children = (
-				0EFB45662C2E8F770025349C /* JMemo_iOS */,
-				0EFB45652C2E8F770025349C /* Products */,
+				0EE911632C34F3FE0048615F /* JunNote */,
+				0EE911622C34F3FE0048615F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0EFB45652C2E8F770025349C /* Products */ = {
+		0EE911622C34F3FE0048615F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0EFB45642C2E8F770025349C /* JMemo_iOS.app */,
+				0EE911612C34F3FE0048615F /* JunNote.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0EFB45662C2E8F770025349C /* JMemo_iOS */ = {
+		0EE911632C34F3FE0048615F /* JunNote */ = {
 			isa = PBXGroup;
 			children = (
-				0E5AEA832C3448810071990E /* Utils */,
-				0EFB45672C2E8F770025349C /* AppDelegate.swift */,
-				0EFB45692C2E8F770025349C /* SceneDelegate.swift */,
-				0EFB456B2C2E8F770025349C /* ViewController.swift */,
-				0EFB45812C2E9D490025349C /* HistoryViewController.swift */,
-				0EFB45702C2E8F790025349C /* Assets.xcassets */,
-				0EFB45722C2E8F790025349C /* LaunchScreen.storyboard */,
-				0EFB45752C2E8F790025349C /* Info.plist */,
+				0EE911782C34F4250048615F /* Utils */,
+				0EE911642C34F3FE0048615F /* AppDelegate.swift */,
+				0EE911662C34F3FE0048615F /* SceneDelegate.swift */,
+				0EE911682C34F3FE0048615F /* ViewController.swift */,
+				0EE9117B2C34F4380048615F /* HistoryViewController.swift */,
+				0EE9116D2C34F4000048615F /* Assets.xcassets */,
+				0EE9116F2C34F4000048615F /* LaunchScreen.storyboard */,
+				0EE911722C34F4000048615F /* Info.plist */,
 			);
-			path = JMemo_iOS;
+			path = JunNote;
+			sourceTree = "<group>";
+		};
+		0EE911782C34F4250048615F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0EE911792C34F42C0048615F /* Utils+UIColor.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0EFB45632C2E8F770025349C /* JMemo_iOS */ = {
+		0EE911602C34F3FE0048615F /* JunNote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0EFB45782C2E8F790025349C /* Build configuration list for PBXNativeTarget "JMemo_iOS" */;
+			buildConfigurationList = 0EE911752C34F4000048615F /* Build configuration list for PBXNativeTarget "JunNote" */;
 			buildPhases = (
-				0EFB45602C2E8F770025349C /* Sources */,
-				0EFB45612C2E8F770025349C /* Frameworks */,
-				0EFB45622C2E8F770025349C /* Resources */,
+				0EE9115D2C34F3FE0048615F /* Sources */,
+				0EE9115E2C34F3FE0048615F /* Frameworks */,
+				0EE9115F2C34F3FE0048615F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = JMemo_iOS;
+			name = JunNote;
 			packageProductDependencies = (
-				0EFB457C2C2E8FCB0025349C /* SnapKit */,
-				0EFB457F2C2E99E00025349C /* Then */,
-				0E5AEA7F2C33F4C70071990E /* VisitHistoryWebView */,
+				0EE9117E2C34F44F0048615F /* VisitHistoryWebView */,
+				0EE911812C34F45A0048615F /* Then */,
+				0EE911842C34F4650048615F /* SnapKit */,
 			);
-			productName = JMemo_iOS;
-			productReference = 0EFB45642C2E8F770025349C /* JMemo_iOS.app */;
+			productName = JunNote;
+			productReference = 0EE911612C34F3FE0048615F /* JunNote.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0EFB455C2C2E8F770025349C /* Project object */ = {
+		0EE911592C34F3FE0048615F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					0EFB45632C2E8F770025349C = {
+					0EE911602C34F3FE0048615F = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 0EFB455F2C2E8F770025349C /* Build configuration list for PBXProject "JMemo_iOS" */;
+			buildConfigurationList = 0EE9115C2C34F3FE0048615F /* Build configuration list for PBXProject "JunNote" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,53 +132,53 @@
 				en,
 				Base,
 			);
-			mainGroup = 0EFB455B2C2E8F770025349C;
+			mainGroup = 0EE911582C34F3FE0048615F;
 			packageReferences = (
-				0EFB457B2C2E8FCB0025349C /* XCRemoteSwiftPackageReference "SnapKit" */,
-				0EFB457E2C2E99E00025349C /* XCRemoteSwiftPackageReference "Then" */,
-				0E5AEA7E2C33F4C70071990E /* XCRemoteSwiftPackageReference "VisitHistoryWebView" */,
+				0EE9117D2C34F44E0048615F /* XCRemoteSwiftPackageReference "VisitHistoryWebView" */,
+				0EE911802C34F45A0048615F /* XCRemoteSwiftPackageReference "Then" */,
+				0EE911832C34F4650048615F /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
-			productRefGroup = 0EFB45652C2E8F770025349C /* Products */;
+			productRefGroup = 0EE911622C34F3FE0048615F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0EFB45632C2E8F770025349C /* JMemo_iOS */,
+				0EE911602C34F3FE0048615F /* JunNote */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0EFB45622C2E8F770025349C /* Resources */ = {
+		0EE9115F2C34F3FE0048615F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EFB45742C2E8F790025349C /* LaunchScreen.storyboard in Resources */,
-				0EFB45712C2E8F790025349C /* Assets.xcassets in Resources */,
+				0EE911712C34F4000048615F /* LaunchScreen.storyboard in Resources */,
+				0EE9116E2C34F4000048615F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0EFB45602C2E8F770025349C /* Sources */ = {
+		0EE9115D2C34F3FE0048615F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EFB456C2C2E8F770025349C /* ViewController.swift in Sources */,
-				0E5AEA822C3445210071990E /* Utils+UIColor.swift in Sources */,
-				0EFB45682C2E8F770025349C /* AppDelegate.swift in Sources */,
-				0EFB456A2C2E8F770025349C /* SceneDelegate.swift in Sources */,
-				0EFB45822C2E9D490025349C /* HistoryViewController.swift in Sources */,
+				0EE911692C34F3FE0048615F /* ViewController.swift in Sources */,
+				0EE911652C34F3FE0048615F /* AppDelegate.swift in Sources */,
+				0EE911672C34F3FE0048615F /* SceneDelegate.swift in Sources */,
+				0EE9117C2C34F4380048615F /* HistoryViewController.swift in Sources */,
+				0EE9117A2C34F42C0048615F /* Utils+UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0EFB45722C2E8F790025349C /* LaunchScreen.storyboard */ = {
+		0EE9116F2C34F4000048615F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0EFB45732C2E8F790025349C /* Base */,
+				0EE911702C34F4000048615F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -186,7 +186,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0EFB45762C2E8F790025349C /* Debug */ = {
+		0EE911732C34F4000048615F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		0EFB45772C2E8F790025349C /* Release */ = {
+		0EE911742C34F4000048615F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -305,7 +305,7 @@
 			};
 			name = Release;
 		};
-		0EFB45792C2E8F790025349C /* Debug */ = {
+		0EE911762C34F4000048615F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -314,7 +314,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 92YDTRVDUA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JMemo_iOS/Info.plist;
+				INFOPLIST_FILE = JunNote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -325,7 +325,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jjunhaa0211.JMemo-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = jjunhaa0211.JunNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -333,7 +333,7 @@
 			};
 			name = Debug;
 		};
-		0EFB457A2C2E8F790025349C /* Release */ = {
+		0EE911772C34F4000048615F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -342,7 +342,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 92YDTRVDUA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = JMemo_iOS/Info.plist;
+				INFOPLIST_FILE = JunNote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -353,7 +353,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "jjunhaa0211.JMemo-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = jjunhaa0211.JunNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -364,20 +364,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0EFB455F2C2E8F770025349C /* Build configuration list for PBXProject "JMemo_iOS" */ = {
+		0EE9115C2C34F3FE0048615F /* Build configuration list for PBXProject "JunNote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0EFB45762C2E8F790025349C /* Debug */,
-				0EFB45772C2E8F790025349C /* Release */,
+				0EE911732C34F4000048615F /* Debug */,
+				0EE911742C34F4000048615F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0EFB45782C2E8F790025349C /* Build configuration list for PBXNativeTarget "JMemo_iOS" */ = {
+		0EE911752C34F4000048615F /* Build configuration list for PBXNativeTarget "JunNote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0EFB45792C2E8F790025349C /* Debug */,
-				0EFB457A2C2E8F790025349C /* Release */,
+				0EE911762C34F4000048615F /* Debug */,
+				0EE911772C34F4000048615F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -385,7 +385,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		0E5AEA7E2C33F4C70071990E /* XCRemoteSwiftPackageReference "VisitHistoryWebView" */ = {
+		0EE9117D2C34F44E0048615F /* XCRemoteSwiftPackageReference "VisitHistoryWebView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jjunhaa0211/VisitHistoryWebView";
 			requirement = {
@@ -393,15 +393,7 @@
 				kind = branch;
 			};
 		};
-		0EFB457B2C2E8FCB0025349C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.7.1;
-			};
-		};
-		0EFB457E2C2E99E00025349C /* XCRemoteSwiftPackageReference "Then" */ = {
+		0EE911802C34F45A0048615F /* XCRemoteSwiftPackageReference "Then" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/devxoul/Then";
 			requirement = {
@@ -409,25 +401,33 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		0EE911832C34F4650048615F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0E5AEA7F2C33F4C70071990E /* VisitHistoryWebView */ = {
+		0EE9117E2C34F44F0048615F /* VisitHistoryWebView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 0E5AEA7E2C33F4C70071990E /* XCRemoteSwiftPackageReference "VisitHistoryWebView" */;
+			package = 0EE9117D2C34F44E0048615F /* XCRemoteSwiftPackageReference "VisitHistoryWebView" */;
 			productName = VisitHistoryWebView;
 		};
-		0EFB457C2C2E8FCB0025349C /* SnapKit */ = {
+		0EE911812C34F45A0048615F /* Then */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 0EFB457B2C2E8FCB0025349C /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		0EFB457F2C2E99E00025349C /* Then */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0EFB457E2C2E99E00025349C /* XCRemoteSwiftPackageReference "Then" */;
+			package = 0EE911802C34F45A0048615F /* XCRemoteSwiftPackageReference "Then" */;
 			productName = Then;
+		};
+		0EE911842C34F4650048615F /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0EE911832C34F4650048615F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 0EFB455C2C2E8F770025349C /* Project object */;
+	rootObject = 0EE911592C34F3FE0048615F /* Project object */;
 }
