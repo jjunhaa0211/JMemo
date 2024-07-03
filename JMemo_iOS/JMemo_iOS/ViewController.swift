@@ -109,7 +109,7 @@ class ViewController: UIViewController {
     }
 
     func loadWebApp() {
-        if let url = URL(string: "http://localhost:5173/") {
+        if let url = URL(string: "https://jjunhaa0211.github.io/JMemo/") {
             let request = URLRequest(url: url)
             webView.load(request)
         }

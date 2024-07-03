@@ -45,7 +45,7 @@ function App() {
             <Route path="/JMemo/trash" element={<TrashNotes />} />
             <Route path="/JMemo/tag/:name" element={<TagNotes />} />
             <Route path="/JMemo/404" element={<ErrorPage />} />
-            <Route path="/*" element={<Navigate to={"/404"} />} />
+            <Route path="/JMemo/*" element={<Navigate to={"/JMemo/404"} />} />
           </Routes>
         </div>
       </BrowserRouter>

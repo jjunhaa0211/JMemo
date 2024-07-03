@@ -1,18 +1,17 @@
-import { NavLink, useLocation } from 'react-router-dom'
-import { useAppDispatch, useAppSelector } from '../../hooks/redux';
-import { Container, MainBox, StyledLogo, ItemsBox } from './Sidebar.styles';
-import { toggleMenu } from '../../store/menu/menuSlice';
-import { FaArchive, FaLightbulb, FaTag, FaTrash } from 'react-icons/fa';
-import getStandardName from '../../utils/getStandardName';
-import { toggleTagsModal } from '../../store/modal/modalSlice';
-import { MdEdit } from 'react-icons/md';
-import { v4 } from 'uuid';
-
+import { NavLink, useLocation } from "react-router-dom";
+import { useAppDispatch, useAppSelector } from "../../hooks/redux";
+import { Container, MainBox, StyledLogo, ItemsBox } from "./Sidebar.styles";
+import { toggleMenu } from "../../store/menu/menuSlice";
+import { FaArchive, FaLightbulb, FaTag, FaTrash } from "react-icons/fa";
+import getStandardName from "../../utils/getStandardName";
+import { toggleTagsModal } from "../../store/modal/modalSlice";
+import { MdEdit } from "react-icons/md";
+import { v4 } from "uuid";
 
 const items = [
   { icon: <FaArchive />, title: "Archive", id: v4() },
   { icon: <FaTrash />, title: "Trash", id: v4() },
-]
+];
 
 const Sidebar = () => {
   const dispatch = useAppDispatch();
@@ -22,7 +21,7 @@ const Sidebar = () => {
 
   const { pathname } = useLocation();
 
-  if (pathname === "/404") {
+  if (pathname === "/JMemo/404") {
     return null;
   }
 
@@ -39,12 +38,14 @@ const Sidebar = () => {
           <h1>JMemo</h1>
         </StyledLogo>
 
-        <ItemsBox >
+        <ItemsBox>
           <li onClick={() => dispatch(toggleMenu(false))}>
             <NavLink
-              to={"/"}
+              to={"/JMemo"}
               state={`notes`}
-              className={({ isActive }) => isActive ? "active-item" : "inactive-item"}
+              className={({ isActive }) =>
+                isActive ? "active-item" : "inactive-item"
+              }
             >
               <span>
                 <FaLightbulb />
@@ -56,9 +57,11 @@ const Sidebar = () => {
           {tagsList?.map(({ tag, id }) => (
             <li key={id} onClick={() => dispatch(toggleMenu(false))}>
               <NavLink
-                to={`/tag/${tag}`}
+                to={`/JMemo/tag/${tag}`}
                 state={`${tag}`}
-                className={({ isActive }) => isActive ? "active-item" : "inactive-item"}
+                className={({ isActive }) =>
+                  isActive ? "active-item" : "inactive-item"
+                }
               >
                 <span>
                   <FaTag />
@@ -69,8 +72,10 @@ const Sidebar = () => {
           ))}
 
           <li
-            className='sidebar__edit-item'
-            onClick={() => dispatch(toggleTagsModal({ type: "edit", view: true }))}
+            className="sidebar__edit-item"
+            onClick={() =>
+              dispatch(toggleTagsModal({ type: "edit", view: true }))
+            }
           >
             <span>
               <MdEdit />
@@ -81,21 +86,21 @@ const Sidebar = () => {
           {items.map(({ icon, title, id }) => (
             <li key={id} onClick={() => dispatch(toggleMenu(false))}>
               <NavLink
-                to={`/${title.toLocaleLowerCase()}`}
+                to={`/JMemo/${title.toLocaleLowerCase()}`}
                 state={`${title}`}
-                className={({ isActive }) => isActive ? "active-item" : "inactive-item"}
+                className={({ isActive }) =>
+                  isActive ? "active-item" : "inactive-item"
+                }
               >
                 <span>{icon}</span>
                 <span>{title}</span>
               </NavLink>
             </li>
           ))}
-
         </ItemsBox>
       </MainBox>
     </Container>
-  )
-}
+  );
+};
 
-export default Sidebar
-
+export default Sidebar;
