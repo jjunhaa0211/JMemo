@@ -35,7 +35,7 @@ const Sidebar = () => {
     <Container openMenu={isOpen ? "open" : ""} onClick={handleBackdropClick}>
       <MainBox openMenu={isOpen ? "open" : ""}>
         <StyledLogo>
-          <h1>JMemo</h1>
+          <h1>JunNote</h1>
         </StyledLogo>
 
         <ItemsBox>
