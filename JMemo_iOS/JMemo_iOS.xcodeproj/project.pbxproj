@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E5AEA802C33F4C70071990E /* VisitHistoryWebView in Frameworks */ = {isa = PBXBuildFile; productRef = 0E5AEA7F2C33F4C70071990E /* VisitHistoryWebView */; };
+		0E5AEA822C3445210071990E /* Utils+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AEA812C3445210071990E /* Utils+UIColor.swift */; };
+		0EFB45682C2E8F770025349C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB45672C2E8F770025349C /* AppDelegate.swift */; };
+		0EFB456A2C2E8F770025349C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB45692C2E8F770025349C /* SceneDelegate.swift */; };
+		0EFB456C2C2E8F770025349C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB456B2C2E8F770025349C /* ViewController.swift */; };
+		0EFB45712C2E8F790025349C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFB45702C2E8F790025349C /* Assets.xcassets */; };
+		0EFB45742C2E8F790025349C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EFB45722C2E8F790025349C /* LaunchScreen.storyboard */; };
+		0EFB457D2C2E8FCB0025349C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0EFB457C2C2E8FCB0025349C /* SnapKit */; };
+		0EFB45802C2E99E00025349C /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 0EFB457F2C2E99E00025349C /* Then */; };
+		0EFB45822C2E9D490025349C /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB45812C2E9D490025349C /* HistoryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E5AEA812C3445210071990E /* Utils+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utils+UIColor.swift"; sourceTree = "<group>"; };
+		0EFB45642C2E8F770025349C /* JMemo_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMemo_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EFB45672C2E8F770025349C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EFB45692C2E8F770025349C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0EFB456B2C2E8F770025349C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EFB45702C2E8F790025349C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EFB45732C2E8F790025349C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EFB45752C2E8F790025349C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EFB45812C2E9D490025349C /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EFB45612C2E8F770025349C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFB457D2C2E8FCB0025349C /* SnapKit in Frameworks */,
+				0E5AEA802C33F4C70071990E /* VisitHistoryWebView in Frameworks */,
+				0EFB45802C2E99E00025349C /* Then in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E5AEA832C3448810071990E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0E5AEA812C3445210071990E /* Utils+UIColor.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0EFB455B2C2E8F770025349C = {
+			isa = PBXGroup;
+			children = (
+				0EFB45662C2E8F770025349C /* JMemo_iOS */,
+				0EFB45652C2E8F770025349C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EFB45652C2E8F770025349C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EFB45642C2E8F770025349C /* JMemo_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EFB45662C2E8F770025349C /* JMemo_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0E5AEA832C3448810071990E /* Utils */,
+				0EFB45672C2E8F770025349C /* AppDelegate.swift */,
+				0EFB45692C2E8F770025349C /* SceneDelegate.swift */,
+				0EFB456B2C2E8F770025349C /* ViewController.swift */,
+				0EFB45812C2E9D490025349C /* HistoryViewController.swift */,
+				0EFB45702C2E8F790025349C /* Assets.xcassets */,
+				0EFB45722C2E8F790025349C /* LaunchScreen.storyboard */,
+				0EFB45752C2E8F790025349C /* Info.plist */,
+			);
+			path = JMemo_iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EFB45632C2E8F770025349C /* JMemo_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EFB45782C2E8F790025349C /* Build configuration list for PBXNativeTarget "JMemo_iOS" */;
+			buildPhases = (
+				0EFB45602C2E8F770025349C /* Sources */,
+				0EFB45612C2E8F770025349C /* Frameworks */,
+				0EFB45622C2E8F770025349C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMemo_iOS;
+			packageProductDependencies = (
+				0EFB457C2C2E8FCB0025349C /* SnapKit */,
+				0EFB457F2C2E99E00025349C /* Then */,
+				0E5AEA7F2C33F4C70071990E /* VisitHistoryWebView */,
+			);
+			productName = JMemo_iOS;
+			productReference = 0EFB45642C2E8F770025349C /* JMemo_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EFB455C2C2E8F770025349C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0EFB45632C2E8F770025349C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 0EFB455F2C2E8F770025349C /* Build configuration list for PBXProject "JMemo_iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EFB455B2C2E8F770025349C;
+			packageReferences = (
+				0EFB457B2C2E8FCB0025349C /* XCRemoteSwiftPackageReference "SnapKit" */,
+				0EFB457E2C2E99E00025349C /* XCRemoteSwiftPackageReference "Then" */,
+				0E5AEA7E2C33F4C70071990E /* XCRemoteSwiftPackageReference "VisitHistoryWebView" */,
+			);
+			productRefGroup = 0EFB45652C2E8F770025349C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EFB45632C2E8F770025349C /* JMemo_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EFB45622C2E8F770025349C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFB45742C2E8F790025349C /* LaunchScreen.storyboard in Resources */,
+				0EFB45712C2E8F790025349C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EFB45602C2E8F770025349C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFB456C2C2E8F770025349C /* ViewController.swift in Sources */,
+				0E5AEA822C3445210071990E /* Utils+UIColor.swift in Sources */,
+				0EFB45682C2E8F770025349C /* AppDelegate.swift in Sources */,
+				0EFB456A2C2E8F770025349C /* SceneDelegate.swift in Sources */,
+				0EFB45822C2E9D490025349C /* HistoryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0EFB45722C2E8F790025349C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EFB45732C2E8F790025349C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EFB45762C2E8F790025349C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EFB45772C2E8F790025349C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EFB45792C2E8F790025349C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92YDTRVDUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JMemo_iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jjunhaa0211.JMemo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EFB457A2C2E8F790025349C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92YDTRVDUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JMemo_iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jjunhaa0211.JMemo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EFB455F2C2E8F770025349C /* Build configuration list for PBXProject "JMemo_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EFB45762C2E8F790025349C /* Debug */,
+				0EFB45772C2E8F790025349C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EFB45782C2E8F790025349C /* Build configuration list for PBXNativeTarget "JMemo_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EFB45792C2E8F790025349C /* Debug */,
+				0EFB457A2C2E8F790025349C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0E5AEA7E2C33F4C70071990E /* XCRemoteSwiftPackageReference "VisitHistoryWebView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jjunhaa0211/VisitHistoryWebView";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		0EFB457B2C2E8FCB0025349C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		0EFB457E2C2E99E00025349C /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0E5AEA7F2C33F4C70071990E /* VisitHistoryWebView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E5AEA7E2C33F4C70071990E /* XCRemoteSwiftPackageReference "VisitHistoryWebView" */;
+			productName = VisitHistoryWebView;
+		};
+		0EFB457C2C2E8FCB0025349C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0EFB457B2C2E8FCB0025349C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		0EFB457F2C2E99E00025349C /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0EFB457E2C2E99E00025349C /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0EFB455C2C2E8F770025349C /* Project object */;
+}
