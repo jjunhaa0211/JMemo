@@ -40,11 +40,11 @@ function App() {
         <div className="app__container">
           <Navbar />
           <Routes>
-            <Route path="/" element={<AllNotes />} />
-            <Route path="/archive" element={<ArchiveNotes />} />
-            <Route path="/trash" element={<TrashNotes />} />
-            <Route path="/tag/:name" element={<TagNotes />} />
-            <Route path="/404" element={<ErrorPage />} />
+            <Route path="/JMemo" element={<AllNotes />} />
+            <Route path="/JMemo/archive" element={<ArchiveNotes />} />
+            <Route path="/JMemo/trash" element={<TrashNotes />} />
+            <Route path="/JMemo/tag/:name" element={<TagNotes />} />
+            <Route path="/JMemo/404" element={<ErrorPage />} />
             <Route path="/*" element={<Navigate to={"/404"} />} />
           </Routes>
         </div>
